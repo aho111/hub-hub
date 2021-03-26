@@ -1,6 +1,6 @@
 FROM openjdk:8u282-jre
-RUN mkdir /usr/local/test-ranch
+RUN mkdir /usr/local/hub-hub
 ENV LANG C.UTF-8
-COPY src /usr/local/test-ranch/src
-#COPY target/test-ranch.jar /usr/local/test-ranch/test-ranch.jar
-#CMD ["java","-Duser.timezone=GMT+08","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8787","-jar","/usr/local/test-ranch/test-ranch.jar"]
+COPY src /usr/local/hub-hub/src
+#COPY target/hub-hub.jar /usr/local/hub-hub/hub-hub.jar
+#CMD ["java","-Duser.timezone=GMT+08","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8787","-jar","/usr/local/hub-hub/hub-hub.jar"]
